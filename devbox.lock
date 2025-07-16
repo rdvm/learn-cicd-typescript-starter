@@ -52,6 +52,54 @@
           "store_path": "/nix/store/65abxkhc231h0cj2k7b6xj14mivrzrvc-google-cloud-sdk-525.0.0"
         }
       }
+    },
+    "turso-cli@latest": {
+      "last_modified": "2025-07-13T22:45:35Z",
+      "resolved": "github:NixOS/nixpkgs/a421ac6595024edcfbb1ef950a3712b89161c359#turso-cli",
+      "source": "devbox-search",
+      "version": "1.0.11",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i00gqyvs2jgxdbc5mhdcmw1iqw03pkdw-turso-cli-1.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/i00gqyvs2jgxdbc5mhdcmw1iqw03pkdw-turso-cli-1.0.11"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2pliniviwjlvfnp79ssd59aqfkd1f18p-turso-cli-1.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2pliniviwjlvfnp79ssd59aqfkd1f18p-turso-cli-1.0.11"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dgz5yzgmvpqxxqgzccwm96lanr4f483l-turso-cli-1.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dgz5yzgmvpqxxqgzccwm96lanr4f483l-turso-cli-1.0.11"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/csphn8bnalwdmb122fw1mqhgq0h9hqra-turso-cli-1.0.11",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/csphn8bnalwdmb122fw1mqhgq0h9hqra-turso-cli-1.0.11"
+        }
+      }
     }
   }
 }
