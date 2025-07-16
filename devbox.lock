@@ -1,0 +1,57 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-07-01T15:05:04Z",
+      "resolved": "github:NixOS/nixpkgs/d31a91c9b3bee464d054633d5f8b84e17a637862?lastModified=1751382304&narHash=sha256-p%2BUruOjULI5lV16FkBqkzqgFasLqfx0bihLBeFHiZAs%3D"
+    },
+    "google-cloud-sdk@latest": {
+      "last_modified": "2025-07-13T22:45:35Z",
+      "resolved": "github:NixOS/nixpkgs/a421ac6595024edcfbb1ef950a3712b89161c359#google-cloud-sdk",
+      "source": "devbox-search",
+      "version": "525.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wfnvhmsbdznzsv9i8jbx0mcac8hf543n-google-cloud-sdk-525.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wfnvhmsbdznzsv9i8jbx0mcac8hf543n-google-cloud-sdk-525.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r884gfxpm67gkkqplzr09m3xc5cq5wwq-google-cloud-sdk-525.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r884gfxpm67gkkqplzr09m3xc5cq5wwq-google-cloud-sdk-525.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q4xa4qk3y9jzkmsz3wfj9mn356iw1rfd-google-cloud-sdk-525.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q4xa4qk3y9jzkmsz3wfj9mn356iw1rfd-google-cloud-sdk-525.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/65abxkhc231h0cj2k7b6xj14mivrzrvc-google-cloud-sdk-525.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/65abxkhc231h0cj2k7b6xj14mivrzrvc-google-cloud-sdk-525.0.0"
+        }
+      }
+    }
+  }
+}
